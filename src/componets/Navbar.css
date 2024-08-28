@@ -1,0 +1,17 @@
+nav {
+    display: grid;
+    grid-template-columns: 3fr repeat(5, 2fr) 3fr;
+    height: 7% ;
+    padding: 3px;
+    align-items: center;
+    justify-items: center;
+
+}
+
+nav span:hover {
+    font-size: 23px;
+    padding-bottom: 3px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
