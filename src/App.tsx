@@ -16,6 +16,7 @@ export const App = () => {
       <Home/>
       <a id="about-me"></a>
       <AboutMe/>
+      <a id="skills"></a>
       <Skills/>
     </>
   )

@@ -1,5 +1,6 @@
 .about-me {
     padding-top: 10%;
+    padding-bottom: 5%;
     display: grid;
     background-color: var(--about-me-bg);
     grid-template-columns: repeat(2, 1fr);

@@ -8,15 +8,15 @@
   font-style: normal;
 }
 
-/*
-Palette Color Principal
+
+/* .Palette_Color_Principal {
   Cod Gray = #171717
   Mine Shaft = #2b2b2b
   Tundora = #404040
   Emperor = #545454
   Dove Gray = #666666
+} */
 
-*/
 .dark_mode {
   --body-bg: #000;
 }
