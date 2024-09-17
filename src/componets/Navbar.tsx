@@ -3,15 +3,17 @@ import './Navbar.css'
 
 export const Navbar = () => {
   return (
-    <nav>
-      <span> </span>
-      <span>Home</span>
-      <span>Sobre mí</span>
-      <span>Habilidades</span>
-      <span>Projectos</span>
-      <span>Contactame</span>
-      <span> </span>
+    <div className='nav-bar'>
+      <nav>
+        <span> </span>
+        <span><a href="#home">Home</a></span>
+        <span><a href="#about-me">Sobre mí</a></span>
+        <span><a href="#skills">Habilidades</a></span>
+        <span><a href="#Projects">Projectos</a></span>
+        <span><a href="#Contact-me">Contactame</a></span>
+        <span> </span>
+      </nav>
+    </div>
 
-    </nav>
   )
 }

@@ -1,0 +1,54 @@
+.contact-me {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--body-bg);
+    box-shadow: 0px -8px 18px 8px #211f1f;
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+
+.contact-me h1 {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    color: var(--color-h1);
+    margin: 0;
+}
+
+.imgs-contac-me {
+    margin-top: 5%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+
+
+.imgs-contac-me a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+.imgs-contac-me div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.imgs-contac-me img {
+    width: 70%;
+    height: auto;
+}
+
+.imgs-contac-me a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+

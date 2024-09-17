@@ -1,0 +1,42 @@
+.about-me {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    display: grid;
+    background-color: var(--about-me-bg);
+    grid-template-columns: repeat(2, 1fr);
+    
+    justify-items: center;
+    width: 100vw;
+    height: 40vh;
+}
+
+.about-me-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+.about-me-text h1 {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+ 
+    color: var(--color-h1);
+    margin: 0;
+}
+
+.about-me-text p {
+    width: 80%;
+    color: var(--text-color);
+}
+
+.about-img-me {
+    height: 100%;
+}
+
+.about-img-me img {
+    height: 65%;
+    border-radius: 50%;
+    width: 112%;
+}
+  
