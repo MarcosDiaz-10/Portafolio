@@ -4,7 +4,7 @@
     display: grid;
     background-color: var(--about-me-bg);
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
+    
     justify-items: center;
     width: 100vw;
     height: 40vh;
@@ -13,6 +13,7 @@
 .about-me-text{
     display: flex;
     flex-direction: column;
+    margin-top: 15%;
 }
 
 .about-me-text h1 {
@@ -34,7 +35,8 @@
 }
 
 .about-img-me img {
-    height: 87%;
+    height: 65%;
     border-radius: 50%;
+    width: 112%;
 }
   

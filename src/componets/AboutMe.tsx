@@ -1,5 +1,5 @@
 import './AboutMe.css'
-import img from '../assets/OIG3-removebg-preview.png'
+import img from '../assets/FotoCV3-removebg-preview.png'
 
 
 export const AboutMe = () => {

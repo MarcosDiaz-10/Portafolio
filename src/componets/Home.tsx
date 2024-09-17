@@ -1,12 +1,11 @@
-import { Navbar } from '../componets/Navbar'
 import './Home.css'
-import img from '../assets/OIG3-removebg-preview.png'
+import img from '../assets/Foto_CV_2-removebg-preview.png'
 
 
 export const Home = () => {
     return (
             <section className='home'>
-                <Navbar />
+                
                 <div className='content'>
                     <div className='text-main'>
                         <span>Hola, soy<br /></span>

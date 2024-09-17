@@ -7,7 +7,7 @@ import imgNode from '../assets/icons8-nodo-js-500.png'
 export const Skills = () => {
   return (
     <section className="skills">
-      <h1>Skills</h1>
+      <h1>Habilidades</h1>
       <div className='imgs'> 
         <div>
           <img id='javascript-img' src={imgJs} alt="Javascript" />

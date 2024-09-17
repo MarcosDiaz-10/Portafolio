@@ -25,6 +25,7 @@
     align-items: flex-start;
     margin-bottom: 16%;
     margin-left: 25%;
+    margin-top: 10%;
     flex-direction: column;
     justify-content: center;
   
@@ -55,8 +56,8 @@
   
   .img-me img {
     width: auto;
-    margin-top: 13%;
-    height: 87%;
+    margin-top: 5%;
+    height: 100%;
   }
   
   
